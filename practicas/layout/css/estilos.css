@@ -115,8 +115,22 @@ aside .widget p {
 
 footer {
     width: 70%;
+    clear: both;
     background: #000;
     color: #fff;
     padding: 15px 0;
     text-align: center;
 }
+@media screen and (max-width:800px) {
+    .main {
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+}  
